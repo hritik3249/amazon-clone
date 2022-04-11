@@ -1,0 +1,22 @@
+.header {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    background-color: #131921;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.header_logo {
+    width: 60px;
+    object-fit: contain;
+    margin: 0 20px;
+    margin-top: 18px;
+}
+
+.header_SearchIcon {
+    padding: 5px;
+    height: 22px !important;
+    background-color: #cd9042;
+}
