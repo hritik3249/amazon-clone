@@ -10,16 +10,19 @@ function Home() {
                     className="home_image"
                     src="https://m.media-amazon.com/images/I/51m54DCon8L._SX1200_.jpg" alt=""
                 />
-            </div>
-            <div className="home_row">
-                <Product />
-                <Product />
-            </div>
-            <div className="home_row">
 
-            </div>
-            <div className="home_row">
-
+                <div className="home_row">
+                    <Product />
+                    <Product />
+                </div>
+                <div className="home_row">
+                    <Product />
+                    <Product />
+                    <Product />
+                </div>
+                <div className="home_row">
+                    <Product />
+                </div>
             </div>
         </div>
     )
